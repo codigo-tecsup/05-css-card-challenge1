@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+body {
+	background-color: #2a2a2a;
+	padding: 20px;
+	font-family: sans-serif;
+}
+.card {
+	max-width: 400px;
+	background-color: #444;
+	border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px #111;
+	display: inline-block;
+	margin: 20px;
+}
+
+.card__info {
+	color: #f1f1f1;
+	background-color: #444;
+	padding: 25px 20px;
+}
+.card__technologies {
+	text-align: center;
+	position: relative;
+	top: -40px;
+}
+.card__technology {
+	padding: 8px;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	margin: 0 4px;
+}
+.card__technology:nth-child(1) {
+	background-color: #6acdd6;
+}
+.card__technology:nth-child(2) {
+	background-color: #6e84e7;
+}
+.card__technology:nth-child(3) {
+	background-color: #e585f1;
+}
+.card__title {
+	margin-bottom: 20px;
+	color: #f1f1f1;
+}
+.card__text {
+	text-align: justify;
+	line-height: 22px;
+	color: #bbb;
+}
